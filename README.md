@@ -1,5 +1,6 @@
 # Netflix-2.O
 Group project
+![image](https://user-images.githubusercontent.com/96313339/208659074-3b5ba4dd-4183-4642-b34e-22770161db83.png)
 
 This is netflix clone using react js and javascritp
 # Screenshots

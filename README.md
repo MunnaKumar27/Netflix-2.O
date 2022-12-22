@@ -1,5 +1,5 @@
 # Netflix
-![MATLAB - Google Chrome 01_12_2022 07_29_27](https://user-images.githubusercontent.com/89778962/209074564-bff51cdd-34e0-4715-9a09-9cfffdfa15f4.png)
+
 
 Group project
 ![image](https://user-images.githubusercontent.com/96313339/208659074-3b5ba4dd-4183-4642-b34e-22770161db83.png)

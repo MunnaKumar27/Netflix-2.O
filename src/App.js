@@ -5,7 +5,6 @@ import Navbar from './components/Navbar';
 function App() {
   return (
     <>
-       //hello Mr Love,gurudev
       <Navbar />
       <Routes>
         <Route path='/' element={<Home />} />
@@ -16,4 +15,4 @@ function App() {
 
 export default App;
 
-/// uihewoihfo hieh
+//uihewoihfo hieh

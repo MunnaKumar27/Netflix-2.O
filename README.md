@@ -1,12 +1,6 @@
 # Netflix
 
 
-I l U 
-I l U 
-I l U 
-I l U 
-I l U 
-I l U 
 
 
 Group project

@@ -1,19 +1,34 @@
 import { Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
+import Login from './pages/Login';
+import Signup from './pages/Signup';
+import Account from './pages/Account'
 import Navbar from './components/Navbar';
+import { AuthContextProvider } from './context/AuthContext';
+import ProtectedRoute from './components/ProtectedRoute';
 
 function App() {
   return (
     <>
-      <Navbar />
+    <AuthContextProvider>
+    <Navbar />
       <Routes>
         <Route path='/' element={<Home />} />
+        <Route path='/login' element={<Login />} />
+        <Route path='/signup' element={<Signup />} />
+        <Route
+            path='/account'
+            element={
+              <ProtectedRoute>
+                <Account />
+              </ProtectedRoute>
+            }
+          />
       </Routes>
+    </AuthContextProvider>
+      
     </>
   );
 }
 
 export default App;
-// i love you so much.You are a very good person.I am lucky to have you in my life.Once again i love u my love. always stay happy. 
-//same to you my love 
-// i love you to so much.
